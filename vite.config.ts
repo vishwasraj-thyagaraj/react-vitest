@@ -24,9 +24,9 @@ export default defineConfig({
     globals: true,
     include: ["tests/*.test.tsx"],
     browser: {
-      provider: "preview",
+      provider: "playwright",
       enabled: true,
-      name: "chrome",
+      name: "chromium",
     },
   },
   resolve: {
